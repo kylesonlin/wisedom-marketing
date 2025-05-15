@@ -8,10 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wisedom.ai",
+  title: "Wisedom.ai – Transform Your Network into a Strategic Advantage",
   description: "Transform Your Network into a Strategic Advantage",
   openGraph: {
-    title: "Wisedom.ai",
+    title: "Wisedom.ai – Transform Your Network into a Strategic Advantage",
     description: "Transform Your Network into a Strategic Advantage",
     url: "https://wisedom.ai",
     siteName: "Wisedom.ai",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wisedom.ai",
+    title: "Wisedom.ai – Transform Your Network into a Strategic Advantage",
     description: "Transform Your Network into a Strategic Advantage",
     images: ["/logo.png"],
   },
@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
